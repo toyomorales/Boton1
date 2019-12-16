@@ -66,6 +66,8 @@ public class Presentacion extends javax.swing.JFrame {
         jLabel1.setText("Hola");
         jLabel2.setText("Como van... ");
         jLabel3.setText("yo muy bien... ");
+      jLabe4.setText("lo que aumento el colaborador ");
+        
     }//GEN-LAST:event_btnActivarActionPerformed
 
     /**
