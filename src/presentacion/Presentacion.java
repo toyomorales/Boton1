@@ -65,7 +65,7 @@ public class Presentacion extends javax.swing.JFrame {
     private void btnActivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivarActionPerformed
         jLabel1.setText("Hola");
         jLabel2.setText("Como van... ");
-        
+        jLabel3.setText("yo muy bien... ");
     }//GEN-LAST:event_btnActivarActionPerformed
 
     /**
