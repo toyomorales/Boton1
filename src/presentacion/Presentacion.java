@@ -16,6 +16,7 @@ public class Presentacion extends javax.swing.JFrame {
 
         btnActivar = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -28,6 +29,8 @@ public class Presentacion extends javax.swing.JFrame {
 
         jLabel1.setText("jLabel1");
 
+        jLabel2.setText("jLabel2");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -39,7 +42,9 @@ public class Presentacion extends javax.swing.JFrame {
                         .addComponent(btnActivar))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(174, 174, 174)
-                        .addComponent(jLabel1)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel1))))
                 .addContainerGap(182, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -49,7 +54,9 @@ public class Presentacion extends javax.swing.JFrame {
                 .addComponent(btnActivar)
                 .addGap(59, 59, 59)
                 .addComponent(jLabel1)
-                .addContainerGap(160, Short.MAX_VALUE))
+                .addGap(37, 37, 37)
+                .addComponent(jLabel2)
+                .addContainerGap(109, Short.MAX_VALUE))
         );
 
         pack();
@@ -57,6 +64,8 @@ public class Presentacion extends javax.swing.JFrame {
 
     private void btnActivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivarActionPerformed
         jLabel1.setText("Hola");
+        jLabel2.setText("Como van... ");
+        
     }//GEN-LAST:event_btnActivarActionPerformed
 
     /**
@@ -97,5 +106,6 @@ public class Presentacion extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnActivar;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
